@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/DrMcCollum5/Professional-Readme/issues"
   },
-  "homepage": "https://github.com/DrMcCollum5/Professional-Readme#readme"
+  "homepage": "https://github.com/DrMcCollum5/Professional-Readme#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
 }

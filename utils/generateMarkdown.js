@@ -10,9 +10,27 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
+var typicalVar = "Tuis is my string" + variable
+var templateLit = `This is my string ${variable}`
+
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+
+${data.description}
+
+## Table of Contents
+
+
+## Usage
+
+${data.usage}
+
+
+
+## Questions
+
+If you have any questions, you can reach me on github at github.com/${data.github} or 
 
 `;
 }
