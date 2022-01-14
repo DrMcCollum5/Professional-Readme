@@ -64,10 +64,16 @@ function init() {
     inquirer.prompt(questions)
     .then((data)=>{
         console.log (data.title)
-        //use fs to call the generateMarkdown function
+        fs.writeFileSync('data', inquirerResponse, data);    
     })
+.catch((err) => {
+    console.log(err);
+});
+
 }
 
+
+//use fs to call the generateMarkdown function
 // Function call to initialize app
 init();
 
