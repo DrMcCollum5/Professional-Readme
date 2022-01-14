@@ -16,8 +16,40 @@ const questions = [
             name: 'title',
             type: 'input',
             message: 'What is the title of your project?'
+        },
+        {
+            name:"description",
+            type:'input',
+            message:'What is the description of the project?' 
+        },
+        {
+            name:'installiation', 
+            type:'input',
+            message:'What are the installation instructions?'
+        },
+        {
+            name:'usage',
+            type:'input',
+            message:'What are the usage instructions?'
+        },
+        {
+            name:'contribution',
+            type:'input',
+            message: 'What are the contribution guidelines?'
+        },
+        {
+            name:'test',
+            type:'input',
+            message:'What are the test instructions?'
+        },
+        {
+            name:'license',
+            type:'list',
+            message:'What type of license did you use?',
+            choices: [ 'MIT', 'Apache','GNU General Public','Boost Software']
         }
 ];
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
