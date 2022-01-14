@@ -17,18 +17,33 @@ var templateLit = `This is my string ${variable}`
 function generateMarkdown(data) {
   return `# ${data.title}
 
+
+## Description
 ${data.description}
 
 ## Table of Contents
-
+${data.tableOfContents}
 
 ## Usage
 
 ${data.usage}
 
+##Installation
+${data.installation}
 
+## License
+${data.license}
+
+
+## Contributing
+${data.contributing}
+
+## Tests
+${data.tests}
 
 ## Questions
+${data.questions}
+
 
 If you have any questions, you can reach me on github at github.com/${data.github} or 
 
