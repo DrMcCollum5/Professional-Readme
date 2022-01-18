@@ -71,9 +71,9 @@ function init() {
 });
 
 }
-
+init();
 
 //use fs to call the generateMarkdown function
 // Function call to initialize app
-init();
+
 
